@@ -16,30 +16,31 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body class="body">
     <!-- шапка сайта header -->
-    <header class="header-page">
-      <div class="container header-container">
+    <header class="header">
+      <div class="container header__container">
         <nav class="navigation">
           <a class="logo" href="index.html" lang="en">
             Web
-            <span class="logo-title-right">Studio</span>
+            <span class="logo__logotitle--black">Studio</span>
           </a>
           <ul class="list navigation-list">
-            <li class="item">
+            <li class="navigation-list__item">
               <a class="link current" href="./index.html">Студия</a>
             </li>
-            <li class="item">
+            <li class="navigation-list__item">
               <a class="link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item">
+            <li class="navigation-list__item">
               <a class="link" href="./Slonik.html">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="list header-contact">
-          <li class="item contact-item">
+          <li class="item header-contact__item contact-item">
             <a class="link" href="mailto:info@devstudio.com">
               <svg class="svg-contact-icon" width="16" height="12">
                 <use href="./imeges/svg/sprite.svg#icon-envelope-hover"></use>
@@ -47,7 +48,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="item contact-item">
+          <li class="item header-contact__item contact-item">
             <a class="link" href="tel:+380961111111">
               <svg class="svg-contact-icon" width="10" height="16">
                 <use href="./imeges/svg/sprite.svg#icon-smartphone"></use>
@@ -77,53 +78,53 @@
       <section class="section ourfeatures">
         <div class="container">
           <h2 class="visually-hidden">Ниши особенности</h2>
-          <ul class="list card-set ourfeatures-list">
-            <li class="ourfeatures-item">
-              <div class="ourfeatures-icon-wrap">
-                <svg class="ourfeatures-icon" width="70" height="70">
+          <ul class="list card-set">
+            <li class="ourfeatures__item">
+              <div class="ourfeatures__icon-wrap">
+                <svg class="ourfeatures_icon" width="70" height="70">
                   <use href="./imeges/svg/sprite.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Внимание к деталям</h3>
+              <h3 class="features__title">Внимание к деталям</h3>
               <p class="">
                 Идейные соображения,а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
 
-            <li class="ourfeatures-item">
-              <div class="ourfeatures-icon-wrap">
-                <svg class="ourfeatures-icon" width="70" height="70">
+            <li class="ourfeatures__item">
+              <div class="ourfeatures__icon-wrap">
+                <svg class="ourfeatures_icon" width="70" height="70">
                   <use href="./imeges/svg/sprite.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Пунктуальность</h3>
+              <h3 class="features__title">Пунктуальность</h3>
               <p class="">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
 
-            <li class="ourfeatures-item">
-              <div class="ourfeatures-icon-wrap">
-                <svg class="ourfeatures-icon" width="70" height="70">
+            <li class="ourfeatures__item">
+              <div class="ourfeatures__icon-wrap">
+                <svg class="ourfeatures_icon" width="70" height="70">
                   <use href="./imeges/svg/sprite.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Планирование</h3>
+              <h3 class="features__title">Планирование</h3>
               <p class="">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
 
-            <li class="ourfeatures-item">
-              <div class="ourfeatures-icon-wrap">
-                <svg class="ourfeatures-icon" width="70" height="70">
+            <li class="ourfeatures__item">
+              <div class="ourfeatures__icon-wrap">
+                <svg class="ourfeatures_icon" width="70" height="70">
                   <use href="./imeges/svg/sprite.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="features-title">Современные технологии</h3>
+              <h3 class="features__title">Современные технологии</h3>
               <p class="">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -133,46 +134,48 @@
         </div>
       </section>
 
+      <!--  чем мы занимаемся What we doing -->
+
       <section class="section what">
         <div class="container">
-          <h2 class="section-h2-title">Чем мы занимаемся</h2>
-          <ul class="list card-set what-list">
-            <li class="what-item">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list card-set what__list">
+            <li class="what__item">
               <img
                 src="./imeges/pic1.jpg"
                 width="370"
                 height="294"
                 alt="photo1"
               />
-              <p class="subtext">Десктопные приложения</p>
+              <p class="what__subtext">Десктопные приложения</p>
             </li>
 
-            <li class="what-item">
+            <li class="what__item">
               <img
                 src="./imeges/pic2.jpg"
                 width="370"
                 height="294"
                 alt="photo2"
               />
-              <p class="subtext">Мобильные приложения</p>
+              <p class="what__subtext">Мобильные приложения</p>
             </li>
 
-            <li class="what-item">
+            <li class="what__item">
               <img
                 src="./imeges/pic3.jpg"
                 width="370"
                 height="294"
                 alt="photo3"
               />
-              <p class="subtext">Дизайнерские решения</p>
+              <p class="what__subtext">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section section-ourteam">
+      <section class="section ourteam">
         <div class="container">
-          <h2 class="section-h2-title">Наша команда</h2>
+          <h2 class="section-title">Наша команда</h2>
           <ul class="list team-list card-set">
             <li class="team-item">
               <img src="imeges/pic1nk.jpg" width="270" alt="member1" />
@@ -375,7 +378,7 @@
       <!-- ПОСТОЯННЫЕ КЛИЕНТЫ -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title-h2">Постоянные клиенты</h2>
+          <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="list card-set customers-list">
             <li class="customers-item">
               <a class="customers-link" href="">
@@ -436,7 +439,7 @@
         <div class="footer-item">
           <a class="logo" href="index.html">
             Web
-            <span class="footer-logo-title-right">Studio</span>
+            <span class="footer-logotitle--white">Studio</span>
           </a>
           <address class="address">
             <ul class="list footer-contacts-list">

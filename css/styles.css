@@ -95,17 +95,16 @@ body {
   margin-left: auto;
 }
 
-.section-ourteam {
+.ourteam {
   background: var(--secondary-background);
 }
 
-.section-h2-title {
+.section-title {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-
   margin-bottom: 50px;
 }
 
@@ -239,26 +238,26 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header-page .logo {
+.header .logo {
   margin-right: 93px;
 }
 
-.logo-title-right {
+.logo__logotitle--black {
   color: #000000;
 }
 
-.footer-logo-title-right {
-  color: #ffffff;
+.footer-logotitle--white {
+  color: #ffffff
 }
 
 /* ================ header ============= */
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-page {
+.header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -271,7 +270,7 @@ body {
   margin-left: auto;
 }
 
-.header-page .link {
+.header .link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -279,12 +278,18 @@ body {
   transition: color var(--transition);
 }
 
-.header-container .item:not(:last-child) {
+.header__container .navigation-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-container .link:hover,
-.header-container .link:focus,
+.header-contact .header-contact__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
+
+.header__container .link:hover,
+.header__container .link:focus,
 .current {
   color: var(--accent-color);
 }
@@ -387,11 +392,11 @@ body {
 
 /* ============ ourfeatures =============*/
 
-.ourfeatures-item {
+.ourfeatures__item {
   flex-basis: calc((100% - (4 -1) * 30px) / 4);
 }
 
-.features-title {
+.features__title {
   font-size: 14px;
   line-height: 1.4;
   vertical-align: top;
@@ -401,7 +406,7 @@ body {
   margin-bottom: 10px;
 }
 
-.ourfeatures-icon-wrap {
+.ourfeatures__icon-wrap {
   padding: 25px;
   margin-bottom: 30px;
   display: flex;
@@ -412,7 +417,7 @@ body {
   background: #f5f4fa;
 }
 
-.ourfeatures-icon-wrap:hover {
+.ourfeatures__icon-wrap:hover {
   background-color: #cccccc;
   transition: background-color var(--transition);
 }
@@ -423,12 +428,12 @@ body {
   padding-top: 0;
 }
 
-.what-item {
+.what__item {
   position: relative;
   flex-basis: calc((100% - (3 - 1) * 30px) / 3);
 }
 
-.subtext {
+.what__subtext {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -493,15 +498,6 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.section-title-h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .customers-item {
