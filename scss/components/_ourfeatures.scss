@@ -1,0 +1,30 @@
+.ourfeatures__item {
+    flex-basis: calc((100% - (4 -1) * 30px) / 4);
+  }
+  
+  .features__title {
+    font-size: 14px;
+    line-height: 1.4;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 10px;
+  }
+  
+  .ourfeatures__icon-wrap {
+    padding: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 4px;
+    background: #f5f4fa;
+  }
+  
+  .ourfeatures__icon-wrap:hover {
+    background-color: #cccccc;
+    transition: background-color var(--transition);
+  }
+  

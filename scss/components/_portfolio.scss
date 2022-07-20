@@ -1,0 +1,94 @@
+.main-section-button {
+    padding-top: 94px;
+  }
+  
+  .portfolio-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  
+  .portfolio-link {
+    display: flex;
+    flex-direction: column;
+    /* text-decoration: none; */
+    transition: box-shadow var(--transition);
+  }
+  
+  .portfolio-link:hover,
+  .portfolio-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .portfolio-link:hover .overlay,
+  .portfolio-link:focus .overlay {
+    transform: translateY(0);
+  }
+  
+  .main-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    column-gap: 8px;
+  }
+  
+  .filter-listli:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .button {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px #f3ebeb;
+  }
+  
+  .filter-btn {
+    background-color: var(--secondary-background);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color var(--transition), color var(--transition),
+      box-shadow var(--transition);
+  }
+  
+  .filter-btn:hover,
+  .filter-btn:focus {
+    background-color: var(--accent-backgrounde);
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .item-img-text-position {
+    padding: 20px 24px;
+    border: 1px solid var(--decore-gray-color);
+  }
+  
+  .porfolio-h4-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .ourfeatures-p-text {
+    font-size: 16px;
+    line-height: 1.88;
+  }
+  

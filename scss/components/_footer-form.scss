@@ -1,0 +1,54 @@
+.footer-form {
+    margin: 0;
+  }
+  
+  .singup_form {
+    display: flex;
+  }
+  
+  
+  .text_form {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    background-color: inherit;
+    color: var(--input-text-color-gray);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+  
+  
+  
+  .singup_btn {
+    min-width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    background-color: #2196f3;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .singup_btn:hover,
+  .singup_btn:focus {
+    background-color: #188ce8;
+    transition: background-color var(--transition);
+  }
+  
+  .singup_svg {
+    margin-left: 10px;
+    fill: currentColor;
+  }
+  
