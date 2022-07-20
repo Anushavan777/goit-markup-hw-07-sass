@@ -1,6 +1,7 @@
 // utils
 @import './utils/vars';
 @import './utils/visually-hidden';
+@import './utils/modal';
 
 // base style
 @import './base/common';
@@ -10,5 +11,15 @@
 // components
 @import './components/header';
 @import './components/logo';
-
+@import './components/ourfeatures';
+@import './components/customers';
+@import './components/checkbox';
+@import './components/social-list';
+@import './components/footer-form';
+@import './components/footer';
+@import './components/portfolio';
+@import './components/hero';
+@import './components/team';
+@import './components/what';
+@import '/scss/components/footer\ form-title';
 //layouts
